@@ -5,7 +5,7 @@ use inc::Module::Install;
 WriteMakefile (
     'NAME'              => 'Bundle-Elkhound',
     'ABSTRACT'          => 'updates Moose dependencies',
-    'VERSION'           => '0.01',
+    'VERSION'           => '0.02',
                                                         
     'dist'              => {'COMPRESS' => 'gzip -9f', 
                             'SUFFIX'   => '.gz', },
